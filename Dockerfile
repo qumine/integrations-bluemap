@@ -1,5 +1,4 @@
-ARG ARCH=
-FROM ${ARCH}openjdk:11-jre-slim
+FROM openjdk:11-jre-slim
 
 VOLUME /data
 EXPOSE 8081
