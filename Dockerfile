@@ -1,5 +1,5 @@
 ARG ARCH=
-FROM ${ARCH}openjdk:17-slim-buster
+FROM ${ARCH}openjdk:17-oraclelinux8
 
 VOLUME /data
 EXPOSE 8081
