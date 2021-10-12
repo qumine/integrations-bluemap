@@ -14,4 +14,4 @@ WORKDIR /home/qumine/bluemap/
 COPY --chown=qumine:qumine bluemap/ /home/qumine/bluemap
 RUN curl -L --output /home/qumine/bluemap/bluemap.jar https://github.com/BlueMap-Minecraft/BlueMap/releases/download/v1.6.3/BlueMap-1.6.3-cli.jar
 
-ENTRYPOINT [ "java", "-jar", "bluemap.jar", "-r", "-w", "-u", "-b"]
+ENTRYPOINT [ "java", "-jar", "bluemap.jar", "-r", "-w", "-u"]
